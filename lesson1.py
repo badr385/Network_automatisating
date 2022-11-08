@@ -8,3 +8,6 @@ my_variable = "hello world"
 
 #how to print a variable
 print(my_variable)
+
+
+#if u are using pc, to run this code use for example python lesson1.py, remember it can be python3,python3.6, .... depending on python version u using
