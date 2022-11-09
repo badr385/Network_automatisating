@@ -7,7 +7,7 @@ def transform_number_to_mask(number):
                 powers_of_number = 2 ** mask_number
                 mask_of_ip = 256 - powers_of_number
                 print(mask_of_ip)
-                print('255.255.255.' + str(mask_of_ip)
+                print('255.255.255.' + str(mask_of_ip))
 #Calculate third octet 255.255.x.0
         elif 16 <= number <= 24:
                 mask_number = 32 - number
@@ -34,4 +34,4 @@ def transform_number_to_mask(number):
 
 transform_number_to_mask(mask_short)
                       
-#try it, it's very useful
+#try it, it's very useful, u can use it to find ur mask of an ip, where have only /24 /26, etcccccccc
